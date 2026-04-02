@@ -20,3 +20,4 @@ class Command(BaseCommand):
             self.stdout.write(self.style.SUCCESS(f"Created test user: {email}"))
         else:
             self.stdout.write(self.style.SUCCESS(f"Updated test user password: {email}"))
+
